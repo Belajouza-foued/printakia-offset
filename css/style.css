@@ -164,6 +164,27 @@ body {
     border-radius: 40px;
     font-size: 15px;
 }
+/* 📱 TABLET + MOBILE */
+@media (max-width: 768px) {
+  .btn-secondary-custom {
+    padding: 10px 16px;   /* ↓ plus petit */
+    font-size: 14px;
+margin-top: 15px;
+  }
+}
+
+/* 📱 SMALL MOBILE */
+@media (max-width: 576px) {
+  .btn-secondary-custom {
+           font-size: 13px;
+    /* 👇 espace en bas */
+  }
+   .btn-secondary-custom:hover {
+    padding: 8px 14px;    /* encore plus petit */
+    font-size: 13px;
+    /* 👇 espace en bas */
+  }
+}
 .btn-secondary-custom:hover {
     border: 2px solid var(--teal);
     background: var(--teal);
