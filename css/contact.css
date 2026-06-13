@@ -1,0 +1,96 @@
+/* HERO */
+:root {
+    --teal: #00bcd4;
+    --teal-dark: #0097a7;
+    --teal-deep: #006978;
+    --navy: #1a2535;
+    --navy-light: #243347;
+    --charcoal: #2c3e50;
+    --slate: #37474f;
+    --light: #f0f4f8;
+    --white: #ffffff;
+    --accent: #00e5ff;
+}
+
+/* NAVBAR */
+.navbar-custom {
+    background: var(--navy);
+    padding: 15px 0;
+}
+
+.nav-link {
+    color: #00e5ff !important;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--white) !important;
+}
+.navbar-toggler {
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+.logo-img {
+    width: 180px;
+    max-width: 100%;
+   }
+.title-1 {
+    color: var(--teal);
+    font-weight: bolder;
+   }
+
+.contact-hero {
+   color: white;
+  padding: 60px 20px;
+}
+
+/* FORM */
+.contact-form {
+  background: white;
+    border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+.form-control {
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* BUTTON */
+.btn-contact {
+  background: var(--teal);
+  color: white;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background: var(--teal-dark);
+}
+
+/* INFO */
+.contact-info i {
+  color: var(--teal);
+  margin-right: 8px;
+}
+
+/* TIME ICONS */
+.time-icons {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: var(--teal);
+  cursor: pointer;
+}

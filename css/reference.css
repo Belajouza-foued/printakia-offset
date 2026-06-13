@@ -1,0 +1,85 @@
+
+
+/* NAVBAR */
+.navbar-custom {
+    background: var(--navy);
+    padding: 15px 0;
+}
+
+.nav-link {
+    color: #00e5ff !important;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--white) !important;
+}
+.navbar-toggler {
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+.logo-img {
+    width: 180px;
+    max-width: 100%;
+   }
+/* HERO */
+:root {
+    --teal: #00bcd4;
+    --teal-dark: #0097a7;
+    --teal-deep: #006978;
+    --navy: #1a2535;
+    --navy-light: #243347;
+    --charcoal: #2c3e50;
+    --slate: #37474f;
+    --light: #f0f4f8;
+    --white: #ffffff;
+    --accent: #00e5ff;
+}
+/* HERO */
+.ref-hero {
+  color: white;
+  padding: 80px 20px;
+}
+
+.ref-hero h1 {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+/* LOGO CARD */
+.logo-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  transition: 0.3s;
+}
+
+/* IMAGE LOGO */
+.logo-card img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.logo-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.logo-card:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
